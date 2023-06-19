@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Snappy";
+    src: url(snappy_dresser/Snappy\ Dresser\ DEMO.ttf);
+}
+@font-face {
+    font-family: "Second";
+    src: url(tt_chocolates/TT\ Chocolates\ Trial\ Regular.otf);
+}
+.navbar{
+    background: url(man.jpeg);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    font-family: Second;
+}
+.navbar h2{
+    margin-left: 90px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+.rightside{
+    box-sizing: border-box;
+    padding-right: 150px;
+    padding-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+.rightside a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    gap: 40px;
+    margin-left: 250px;
+    max-width: 700px;
+    flex-wrap: wrap;
+    font-family: Second;
+}
+.container a{
+    cursor: pointer;
+}
+.txt{
+    box-sizing: border-box;
+    text-align: center;
+}
+.txt2{
+    box-sizing: border-box;
+    text-align: center;
+}
+.txt3{
+    box-sizing: border-box;
+    text-align: center;
+}
+.txt4{
+    box-sizing: border-box;
+    text-align: center;
+}
+.txt5{
+    box-sizing: border-box;
+    text-align: center;
+}
+.txt6{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+#atc1{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#atc2{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#atc3{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#atc4{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#atc5{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#atc6{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.home{
+    background-color: rgb(206, 209, 209);
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    
+}
+.about{
+    background-color: rgb(206, 209, 209);
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.about a{
+    color: #ffffff;
+}
+.home a{
+    color: #ffffff;
+}
+.items{
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    color: white;
+}
+.basket{
+    display: flex;
+    background-color: blue;
+    width: 100px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px black;
+    padding-left: 10px;
+    gap: 5px;
+}
+.basket a{
+    margin-top: 6px;
+    color: #ffffff;
+}
+
+    
+
+/* Cart Page */
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    font-family: Second;
+}
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid lightgray;
+    height: 50px;
+}
+.product-title{
+    width: 45%;
+}
+.price{
+    display: flex;
+    width: 15%;
+    
+}
+.total{
+    width: 10%;
+    display: flex;
+
+}
+.quantity{
+    width: 30%;
+    display: flex;
+}
+.product{
+    display: flex;
+    position: relative;
+    top: 70px;
+    right: 500px;
+}
+.prices{
+    position: relative;
+    right: 250px;
+    bottom: 10px;
+}
+.quantitynum{
+    position: relative;
+    right: 170px;
+    bottom: 30px;
+}
+.totals{
+    position: relative;
+    right: 45px;
+    bottom: 45px;
+}
+.bskttl{
+    height: 50px;
+}
+.bskttl button{
+    height: 45px;
+    color: #ffffff;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
